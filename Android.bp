@@ -22943,8 +22943,7 @@ android_app_import {
     name: "EuiccGoogle",
     owner: "xiaomi",
     apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
-    preprocessed: true,
-    presigned: true,
+    certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
