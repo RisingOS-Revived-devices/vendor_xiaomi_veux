@@ -1030,6 +1030,48 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmisoundfx",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/soundfx/libmisoundfx.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/soundfx/libmisoundfx.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "soundfx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.qspmhal@1.0",
     owner: "xiaomi",
     strip: {
@@ -5382,7 +5424,7 @@ cc_prebuilt_library_shared {
                 "libcamximageformatutils",
                 "libchilog",
                 "libcom.qti.chinodeutils",
-                "libui-v34",
+                "libui",
                 "libz",
                 "libc",
                 "libm",
@@ -6933,7 +6975,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "libchilog",
-                "libui-v34",
+                "libui",
                 "libvidhance",
                 "libhidlbase",
                 "libhidltransport",
@@ -21417,9 +21459,9 @@ android_app_import {
 }
 
 android_app_import {
-    name: "EuiccGoogle",
+    name: "EuiccGoogleVeux",
     owner: "xiaomi",
-    apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
+    apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogleVeux.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,

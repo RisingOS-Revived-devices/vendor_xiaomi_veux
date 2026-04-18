@@ -424,6 +424,7 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libthermalclient \
+    libmisoundfx \
     vendor.qti.qspmhal@1.0 \
     btaudio_offload_if \
     audio.primary.holi \
@@ -1039,7 +1040,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     MobileFeliCaClient \
     PowerOffAlarm \
-    EuiccGoogle \
+    EuiccGoogleVeux \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     QtiTelephonyService \
