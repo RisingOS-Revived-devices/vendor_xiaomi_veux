@@ -83,7 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/veux/proprietary/vendor/etc/camera/126_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/126_Fantasy.png \
     vendor/xiaomi/veux/proprietary/vendor/etc/camera/127_DustDream.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/127_DustDream.png \
     vendor/xiaomi/veux/proprietary/vendor/etc/camera/128_MongKok.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/128_MongKok.png \
-    vendor/xiaomi/veux/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/xiaomi/veux/proprietary/vendor/etc/camera/com.xiaomi.dcal.wu.golden_i:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wu.golden_i \
     vendor/xiaomi/veux/proprietary/vendor/etc/camera/com.xiaomi.dcal.wu.golden_ii:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wu.golden_ii \
     vendor/xiaomi/veux/proprietary/vendor/etc/camera/com.xiaomi.dcal.wu.golden_in_i:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wu.golden_in_i \
