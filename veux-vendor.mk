@@ -460,6 +460,7 @@ PRODUCT_PACKAGES += \
     libqcodec2_basecodec \
     libqcodec2_core \
     libqcodec2_hooks \
+    libqcodec2_mockfilter \
     libqcodec2_platform \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
