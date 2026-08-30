@@ -1035,8 +1035,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.dpmservice@1.0 \
     vendor.qti.hardware.fm@1.0 \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
-    vendor.qti.hardware.wifidisplaysession_aidl-V2-ndk \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     CACertService \
@@ -1118,8 +1116,7 @@ PRODUCT_PACKAGES += \
     time_daemon \
     vendor.qti.qspmhal@1.0-service \
     xtra-daemon \
-    dpmd \
-    wfdservice
+    dpmd
 
 PRODUCT_PACKAGES += \
     vendor_lib_libEGL_adreno_so \
